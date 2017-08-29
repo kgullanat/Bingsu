@@ -1,17 +1,17 @@
 
 public class Brownies extends CondimentDecorator {
-	Beverage beverage;
-	public Brownies (Beverage beverage){
-		this.beverage = beverage;
+	Sweet sweet;
+	public Brownies (Sweet sweet){
+		this.sweet = sweet;
 	}
 
 	@Override
 	public String getDescription() {
 		// TODO Auto-generated method stub
-		return beverage.getDescription()+",Brownies" ;
+		return sweet.getDescription()+",Brownies" ;
 	}
 		public double cost(){
-			return 0.25 + beverage.cost();
+			return 0.25 + sweet.cost();
 		}
 	}
 

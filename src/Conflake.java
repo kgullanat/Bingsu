@@ -1,16 +1,16 @@
 
 public class Conflake extends CondimentDecorator {
-	Beverage beverage;
-	public Conflake (Beverage beverage){
-		this.beverage = beverage;
+	Sweet sweet;
+	public Conflake (Sweet sweet){
+		this.sweet = sweet;
 	}
 
 	@Override
 	public String getDescription() {
 		// TODO Auto-generated method stub
-		return beverage.getDescription()+",Conflake" ;
+		return sweet.getDescription()+",Conflake" ;
 	}
 		public double cost(){
-			return 0.40 + beverage.cost();
+			return 0.40 + sweet.cost();
 		}
 	}

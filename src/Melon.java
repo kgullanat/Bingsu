@@ -1,16 +1,16 @@
 
 public class Melon extends CondimentDecorator {
-	Beverage beverage;
-	public Melon (Beverage beverage){
-		this.beverage = beverage;
+	Sweet sweet;
+	public Melon (Sweet sweet){
+		this.sweet = sweet;
 	}
 
 	@Override
 	public String getDescription() {
 		// TODO Auto-generated method stub
-		return beverage.getDescription()+",Melon" ;
+		return sweet.getDescription()+",Melon" ;
 	}
 		public double cost(){
-			return 0.40 + beverage.cost();
+			return 0.40 + sweet.cost();
 		}
 	}

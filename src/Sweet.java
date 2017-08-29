@@ -1,6 +1,6 @@
 
-public abstract class Beverage {
-	String description = "Unknow Beverage";
+public abstract class Sweet {
+String description = "Unknow Sweet";
 	
 	public String getDescription()
 	{
@@ -11,3 +11,6 @@ public abstract class Beverage {
 	public abstract double cost();
 
 }
+
+
+

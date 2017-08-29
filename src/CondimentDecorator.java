@@ -1,5 +1,5 @@
 
-public abstract class CondimentDecorator extends Beverage {
+public abstract class CondimentDecorator extends Sweet {
 
 	@Override
 	public double cost() {

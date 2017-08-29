@@ -1,5 +1,5 @@
 
-public class BingsuMacha extends Beverage {
+public class BingsuMacha extends Sweet {
 	public BingsuMacha(){
 		description = "Bingsu Macha";
 	}
